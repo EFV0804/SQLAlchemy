@@ -68,7 +68,7 @@ def drop_tables(engine):
 
 
 def get_engine(name):
-    path = 'sqlite:///D:\\TD4\\VIDAL_Elise\\COURSES\\Pipeline\\PIPELINE\\sql_rdbms\\{0}'.format(name)
+    path = 'sqlite:///D:\\path\\to\\wherever\\you\\want\\sql_rdbms\\{0}'.format(name)
     engine = create_engine(path, echo=True)
     return engine
 
